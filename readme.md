@@ -32,8 +32,11 @@ set PYTHONPATH=%PYTHONPATH%;C:\Users\fabas\Desktop\dev\git\learnpython
 
 if you want to see if the folder is in the PYTHONPATH you can invoke the python command, then import sys, and print sys.path
 
-## the Pip !
- Now we are going to install some package
+## pip command
+ https://pypi.org/project/pip/
+ pip is a python command, you can dowload with it a lot of package.  
+ in a virtualenv you can found those packages in venv\site-packages\  
+ We are going to install this packages first :
 ```
 pip install black
 pip install pylint
